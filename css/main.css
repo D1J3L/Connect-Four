@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(172, 169, 151);
+    background-image: url('https://i.imgur.com/NHY8O4b.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,11 +8,14 @@ body {
 
 table {
     background-color: rgb(69, 123, 189);
+    box-shadow: 0px 0px 50px rgb(223, 214, 118);
     padding: 5px;
+    border-radius: 1%;
 }
 
 td {
     background-color: rgb(228, 228, 228);
+    box-shadow: 0px 0px 2px #fff;
     border-radius: 50%;
     padding: 10px;
     height: 70px;
@@ -26,4 +29,8 @@ button {
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
+}
+
+img {
+    filter: contrast(120%) brightness(110%);
 }
