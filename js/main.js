@@ -69,26 +69,25 @@ function handleMove(evt) {
 
 
 function getWinner() {
-    for (let i = 0; i < winningCombos.length; i++) {
-        if (Math.abs(board[winningCombos[i][0]] + board[winningCombos[i][1]] + board[winningCombos[i][2]] + board[winningCombos[i][3]]) === 4) {
-            return board[winningCombos[i][0]];
-        }
-    }
-    if (board.includes(null) === false) {
-        return "T";
-    }
+	for (let i = 0; i < winningCombos.length; i++) {
+		if (Math.abs(board[winningCombos[i][0]] + board[winningCombos[i][1]] + board[winningCombos[i][2]] + board[winningCombos[i][3]]) === 4) {
+			return board[winningCombos[i][0]];
+		}
+	}
+	if (board.includes(null)) return null;
+	return "T";
 }
 
 function render() {
-    board.forEach(function(sq, i) {
-        spaceEl[i].style.background = lookup[sq];
-    });
-    if (winner) {
-        message.innerHTML = `${lookup[winner]} wins!`;
-        document.querySelector('table').removeEventListener('click', handleMove);
-    } else if (winner === "T") {
+	board.forEach(function(sq, i) {
+		spaceEl[i].style.background = lookup[sq];
+	});
+	if (winner === "T") {
         message.innerHTML = `Tied!`;
-    } else {
-        message.innerHTML = `${lookup[turn]} you're next!`;  
-    }
+	} else if (winner) {
+		message.innerHTML = `${lookup[winner]} wins!`;
+		document.querySelector('table').removeEventListener('click', handleMove);
+	} else {
+		message.innerHTML = `${lookup[turn]} you're next!`;
+	}
 }
