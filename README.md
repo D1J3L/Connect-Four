@@ -3,7 +3,6 @@
 Welcome to Connect Four! This is a browser game based on the classic board game Connect Four. Two players go head to head placing their red/yellow game pieces on a 6X7 game board. The first player to connect four of the their game pieces in a row going horizontally, vertically, or diagonally wins the game!
 
 [Play Connect Four!](https://d1j3l.github.io/Connect-Four/)
-<a href="https://d1j3l.github.io/Connect-Four/" target="_blank">Play Connect Four!</a>
 
 ## Screenshots
 ---------------
