@@ -4,7 +4,8 @@ Welcome to Connect Four! This is a browser game based on the classic board game 
 
 ## Screenshots
 ---------------
-<img alt="Start" src="https://i.imgur.com/TqHeTc3.png" height="350" width="300"> <img alt="Midgame" src="https://i.imgur.com/gziaUrF.png" height="350" width="300"> 
+<img alt="Start" src="https://i.imgur.com/TqHeTc3.png" height="350" width="300"> <img alt="Midgame" src="https://i.imgur.com/gziaUrF.png" height="350" width="300">
+<img alt="Start" src="https://i.imgur.com/2WEbzkE.png" height="350" width="300">
 
 ## Technologies Used
 ---------------
