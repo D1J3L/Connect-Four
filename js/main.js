@@ -40,6 +40,7 @@ document.querySelector('button').addEventListener('click', init);
 init();
 
 function init() {
+    document.querySelector('table').addEventListener('click', handleMove);
     board = [null, null, null, null, null, null, null,
         null, null, null, null, null, null, null, 
         null, null, null, null, null, null, null, 
