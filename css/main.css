@@ -8,13 +8,12 @@ body {
 
 table {
     background-color: rgb(69, 123, 189);
-    box-shadow: 0px 0px 50px rgb(223, 214, 118);
+    box-shadow: 0px 0px 50px rgb(250, 221, 6);
     padding: 5px;
-    border-radius: 1%;
 }
 
 td {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(238, 238, 238);
     box-shadow: 0px 0px 2px #fff;
     border-radius: 50%;
     padding: 10px;
@@ -22,13 +21,24 @@ td {
     width: 70px;
 }
 
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(225, 225, 225);
+}
+
 button {
     background-color: rgb(213, 213, 213);
-    border-color: rgb(51, 95, 208);
+    border-color: white;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(213, 213, 213);
 }
 
 img {
